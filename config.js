@@ -2,14 +2,14 @@ let fs = require('fs')
 let chalk = require('chalk')
 
 global.owner = [
-  ['62895330379186'],
-  ['62895330379186'],
-  ['62895330379186', 'Owner', true]
+  ['6285730118420'],
+  ['6285731140418'],
+  ['6285730118420', 'Owner', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
-global.mods = [] // Want some help?
-global.prems = [] // Premium user has unlimited limit
-global.APIs = { // API Prefix
+global.mods = ['6285730118420'] // Want some help?
+global.prems = ['6285731140418'] // Premium user has unlimited limit
+global.APIs = {'https://zahirr-web.herokuapp.com': 'zahirgans' // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
   xteam: 'https://api.xteam.xyz',
